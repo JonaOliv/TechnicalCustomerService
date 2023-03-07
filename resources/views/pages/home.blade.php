@@ -2,7 +2,7 @@
 @section('content')  
 <style type="text/css">
 	body {
-		background-image: url("{{ asset('/img/technical-support.jpg') }}"), url("{{ asset('/img/technical-support.jpg') }}");
+		background-image: url("{{ asset('/img/World-Earth-Space-Cyber-Network-Map-Hd-Wallpaper-7280995.jpg') }}"), url("{{ asset('/img/technical-support.jpg') }}");
 		background-position: 98% 90%, top left;
 		background-repeat: no-repeat;
 		background-attachment: fixed;

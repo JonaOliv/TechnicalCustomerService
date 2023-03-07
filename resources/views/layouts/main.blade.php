@@ -36,7 +36,7 @@
           <div class="container-fluid">
             <div class="navbar-header">
               <span class="icon-bar"></span>
-              <a class="navbar-brand" href="{{ route('pages.home') }}"><img src="logo.png" width="48" style="transform: translateY(-10px);"></a>
+              <a class="navbar-brand" href="{{ route('pages.home') }}"><img src="{{ asset('/img/icon.png') }}" width="48" style="transform: translateY(-10px);"></a>
               </div>
             <ul class="nav navbar-nav">
               <li>
@@ -70,7 +70,7 @@
 
   <style media="screen">
   #navi{
-    background: url({{ asset('/img/navbar.js') }});
+    background: url({{ asset('/img/rect1515.png') }});
     background-color: lavender;
   }
   nav.ul nav.li{
